@@ -1,0 +1,38 @@
+.product-group {
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+	white-space: nowrap;
+}
+
+.product-quantity {
+	display: inline-block;
+	vertical-align: top;
+	padding-right: 6px;
+}
+
+.product-block {
+	display: inline-block;
+	vertical-align: top;
+	white-space: normal;
+}
+
+.product-block .product-name,
+.product-block .product-price {
+	display: block;
+	width: auto;
+	text-align: left;
+}
+
+.product-total {
+	display: inline-block;
+	width: 50%;
+	vertical-align: middle;
+	text-align: right;
+	font-weight: 600;
+	color: #666;
+}
+
+.remove {
+	background-image: url("https://image.flaticon.com/icons/svg/1665/1665612.svg");
+}
